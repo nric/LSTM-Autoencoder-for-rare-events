@@ -8,8 +8,8 @@ and found it useful to reproduce it to learn to use Autoencoders with LSTM cells
 https://towardsdatascience.com/extreme-rare-event-classification-using-autoencoders-in-keras-a565b386f098
 
 The basic idea is:
-- Train an LSTM autoencoder to generate/predict "normal" features for the next timesteop.
-- If the measurment of the next timestep differs greatly from the generated/predicted, this is likely a fault sate
+- Train an LSTM autoencoder to generate/predict "normal" features for the next timestep.
+- If the measurment of the next timestep differs greatly from the generated/predicted, this is likely a fault sate and with a certain threshold will be regarded as such. 
 - use the few y = 1 data lines from the dataset just for validation and statistics and don't even bother to try to make a 
 
 I used VS-Code with Iphykernel / jupyter. But I also exported as ipynb if anyone wants to look at it there.
