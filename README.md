@@ -10,6 +10,6 @@ https://towardsdatascience.com/extreme-rare-event-classification-using-autoencod
 The basic idea is:
 - Train an LSTM autoencoder to generate/predict "normal" features for the next timestep.
 - If the measurment of the next timestep differs greatly from the generated/predicted, this is likely a fault sate and with a certain threshold will be regarded as such. 
-- use the few y = 1 data lines from the dataset just for validation and statistics and don't even bother to try to make a 
+- use the few y = 1 data lines from the dataset just for validation and statistics and don't even bother to try to make a superwised classification problem out of this dataset.
 
 I used VS-Code with Iphykernel / jupyter. But I also exported as ipynb if anyone wants to look at it there.
