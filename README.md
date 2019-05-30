@@ -11,3 +11,5 @@ The basic idea is:
 - Train an LSTM autoencoder to generate/predict "normal" features for the next timesteop.
 - If the measurment of the next timestep differs greatly from the generated/predicted, this is likely a fault sate
 - use the few y = 1 data lines from the dataset just for validation and statistics and don't even bother to try to make a 
+
+I used VS-Code with Iphykernel / jupyter. But I also exported as ipynb if anyone wants to look at it there.
